@@ -10,7 +10,3 @@ cpf_cliente varchar(11) not null,
 nome_mae varchar(50) not null,
 tp_usuario int default null
 );
-drop table tbl_clienteD35;
-insert into tbl_clienteD6 values (1,"Arthur Sena Fonseca","","arthur@arthur","123","123456789","flavia",1);
-insert into tbl_clienteD6 values (1,"Veloso","","veloso@veloso","123","123","carla",1);
-select * from tbl_clienteD6;
